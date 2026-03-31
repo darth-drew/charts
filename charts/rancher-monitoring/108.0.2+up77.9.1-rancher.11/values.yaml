@@ -1005,7 +1005,7 @@ loggingMonitors:
 ## Configuration for prometheus-windows-exporter
 ## ref: https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-windows-exporter
 ##
-prometheus-windows-exporter:
+windowsExporter:
   ## Enable ServiceMonitor and set Kubernetes label to use as a job label
   ##
   prometheus:
